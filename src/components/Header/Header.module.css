@@ -1,8 +1,14 @@
-.header img {
-    width: 40px;
+.header {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: green;
+    margin: 10px;
+    padding: 20px;
+    height: 100px;
 }
 
-.header {
-    grid-area: h;
-    background-color: green;
+.header img {
+    margin-left: 25px;
+    height: 70px;
 }

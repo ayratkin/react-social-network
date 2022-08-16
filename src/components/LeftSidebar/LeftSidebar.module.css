@@ -1,0 +1,29 @@
+.left_sidebar {
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: burlywood;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.left_sidebar ul {
+    margin: 0;
+    padding: 0;    
+}
+
+.left_sidebar ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.left_sidebar ul li a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+

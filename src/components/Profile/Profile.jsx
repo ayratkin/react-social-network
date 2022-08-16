@@ -1,27 +1,19 @@
 import React from 'react';
+import style from './Profile.module.css'
+import MyPosts from './MyPosts/MyPosts'
 
 const Profile = () => {
-    return <div className='content'>
+    return <div className={style.profile}>
     <div>
-      <img src='https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350' />
+      <img
+      className={style.profile_img} 
+      src='https://avatars.mds.yandex.net/get-znatoki/1649112/2a0000017c2a9d245297afae479a9188fab9/w1200'
+      alt='cat img'/>
     </div>
     <div>
       ava + description
     </div>
-    <div>
-      My posts
-      <div>
-        New post
-      </div>
-      <div>
-        <div>
-          post 1
-        </div>
-        <div>
-          post 2
-        </div>
-      </div>
-    </div>
+    <MyPosts/>
   </div>
 }
 
