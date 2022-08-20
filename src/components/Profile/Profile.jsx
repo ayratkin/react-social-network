@@ -1,20 +1,19 @@
 import React from 'react';
+// Component styles
 import style from './Profile.module.css'
+// Other components
 import MyPosts from './MyPosts/MyPosts'
+import ProfileInfo from './ProfileInfo/ProfileInfo'
 
-const Profile = () => {
-    return <div className={style.profile}>
-    <div>
-      <img
-      className={style.profile_img} 
-      src='https://avatars.mds.yandex.net/get-znatoki/1649112/2a0000017c2a9d245297afae479a9188fab9/w1200'
-      alt='cat img'/>
-    </div>
-    <div>
-      ava + description
-    </div>
-    <MyPosts/>
-  </div>
+const Profile = (props) => {
+  return (
+    <>
+      <div className={style.profile}>
+        <ProfileInfo />
+        <MyPosts postsData={props.postsData} />
+      </div>
+    </>
+  )
 }
 
 export default Profile;
