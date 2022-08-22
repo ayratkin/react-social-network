@@ -16,16 +16,17 @@ import Dialogs from './components/Dialogs/Dialogs';
 import Profile from './components/Profile/Profile';
 
 const App = (props) => {
+
   return (
     <Router>
     <div className='app_wrapper'>
-      <Header />
+      <Header /> 
         <div className='main_wrapper'>
           <LeftSidebar />
           <div className='page'>
             <Routes>
-              <Route path='/' element={<Profile postsData={props.postsData}/>} />
-              <Route path='/dialogs/*' element={<Dialogs messagesData={props.messagesData}/>} />
+              <Route path='/' element={<Profile state={props.state.profilePage}/>} />
+              <Route path='/dialogs/*' element={<Dialogs state={props.state.dialogsPage}/>} />
             </Routes>
           </div>
 

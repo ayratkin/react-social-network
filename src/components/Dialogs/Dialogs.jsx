@@ -1,45 +1,16 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-
 // Component styles
-import style from "./Dialogs.module.css"
-
-// Имя человека, с которым ведется диалог
-const DialogsItem = (props) => {
-    let path = `/dialog/${props.id}`
-
-    return (
-        <div className={style.dialog}>
-            <Link to={path}>{props.name}</Link>
-        </div>
-    )
-}
-
-// Сообщение
-const Message = (props) => {
-    return (
-        <>
-            <div className={style.message}>
-                <p>{props.messageText}</p>
-            </div>
-        </>
-    )
-}
-
-let dialogsData = [
-    { id: 1, name: 'Ivan' },
-    { id: 2, name: 'Kirill' },
-    { id: 3, name: 'Alexandr' },
-    { id: 4, name: 'Vova' },
-]
-
-let dialogsItems = dialogsData.map((dialog) => {
-    return (<DialogsItem id={dialog.id} name={dialog.name} />)
-})
+import style from "./Dialogs.module.css";
+// Other components
+import DialogItem from './DialogItem/DialogItem';
+import Message from './Message/Message';
 
 const Dialogs = (props) => {
+    let dialogsItems = props.state.dialogs.map((dialog) => {
+        return (<DialogItem id={dialog.id} name={dialog.name} />)
+    })
 
-    let messagesItems = props.messagesData.map((message) => {
+    let messagesItems = props.state.messages.map((message) => {
         return (<Message messageText={message.message} />)
     })
 
