@@ -27,4 +27,13 @@ let state = {
     }
 }
 
+export const addMessage = (newMessage) => {
+    let newMessageObj = {
+        id: 1,
+        message: newMessage,
+    }
+
+    state.dialogsPage.messages.push(newMessageObj);
+}
+
 export default state;

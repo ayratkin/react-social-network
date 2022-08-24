@@ -2,8 +2,9 @@ import React from "react";
 // Component styles
 import style from "./Dialogs.module.css";
 // Other components
-import DialogItem from './DialogItem/DialogItem';
-import Message from './Message/Message';
+import DialogItem from "./DialogItem/DialogItem";
+import Message from "./Message/Message";
+import AddMessage from "./AddMessage/AddMessage"
 
 const Dialogs = (props) => {
     let dialogsItems = props.state.dialogs.map((dialog) => {
@@ -25,6 +26,7 @@ const Dialogs = (props) => {
                 </div>
                 <div className={style.messages}>
                     {messagesItems}
+                    <AddMessage addMessage={props.addMessage}/>
                 </div>
             </div>
         </>
