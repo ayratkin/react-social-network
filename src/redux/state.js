@@ -1,3 +1,5 @@
+import render from '../render'
+
 let state = {
     profilePage: {
         posts: [
@@ -34,6 +36,17 @@ export const addMessage = (newMessage) => {
     }
 
     state.dialogsPage.messages.push(newMessageObj);
+}
+
+export const addPost = (newPost) => {
+    let newPostObj = {
+        id: 0,
+        message: newPost,
+        likeCount: 0
+    }
+
+    state.profilePage.posts.push(newPostObj);
+    render();
 }
 
 export default state;

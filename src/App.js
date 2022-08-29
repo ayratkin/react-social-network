@@ -16,6 +16,7 @@ import Dialogs from './components/Dialogs/Dialogs';
 import Profile from './components/Profile/Profile';
 
 const App = (props) => {
+  console.log(props.state.profilePage)
 
   return (
     <Router>
@@ -25,7 +26,7 @@ const App = (props) => {
           <LeftSidebar />
           <div className='page'>
             <Routes>
-              <Route path='/' element={<Profile state={props.state.profilePage}/>} />
+              <Route path='/' element={<Profile state={props.state.profilePage} addPost={props.addPost}/>} />
               <Route path='/dialogs/*' element={<Dialogs state={props.state.dialogsPage} addMessage={props.addMessage}/>} />
             </Routes>
           </div>

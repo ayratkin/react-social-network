@@ -13,7 +13,7 @@ const AddMessage = (props) => {
     return (
         <>
             <div className={style.new_message}>
-                <textarea ref={myRef} placeholder="Write a message..."></textarea>
+                <textarea ref={myRef} placeholder="Write a post..."></textarea>
                 <button onClick={ sendMessage }>Send message</button>
             </div>
         </>
