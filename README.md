@@ -1,3 +1,11 @@
+Для работы с scss в приложении необходимо соответствие версии библиотеки node-sass c версией Node js (node -v):
+NodeJS	Supported node-sass version	Node Module
+Node 17	7.0+	102
+Node 16	6.0+	93
+Node 15	5.0+, <7.0	88
+Node 14	4.14+	83
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
