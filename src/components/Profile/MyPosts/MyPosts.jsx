@@ -1,7 +1,10 @@
+// Libraries
 import React from 'react';
+
 // Component styles
-import style from './MyPosts.module.css'
-// Other components
+import style from './MyPosts.module.scss'
+
+// App components
 import Post from './Post/Post';
 
 

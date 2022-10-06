@@ -1,7 +1,9 @@
+// Libraries
 import React from "react";
 import { Link } from 'react-router-dom';
+
 // Component styles
-import style from "./DialogItem.module.css"
+import style from "./DialogItem.module.scss"
 
 const DialogItem = (props) => {
     let path = `/dialog/${props.id}`

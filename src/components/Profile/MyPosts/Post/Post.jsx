@@ -1,7 +1,8 @@
+// Libraries
 import React from 'react';
 
 // Component styles
-import style from './Post.module.css'
+import style from './Post.module.scss'
 
 const Post = (props) => {
   return (

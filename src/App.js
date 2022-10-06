@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 // Component styles;
-import './App.css';
+import './App.scss';
 
 // App components 
 import Header from './components/Header/Header';
@@ -16,7 +16,6 @@ import Dialogs from './components/Dialogs/Dialogs';
 import Profile from './components/Profile/Profile';
 
 const App = (props) => {
-  console.log(props.state.profilePage)
 
   return (
     <Router>
@@ -26,8 +25,11 @@ const App = (props) => {
           <LeftSidebar />
           <div className='page'>
             <Routes>
-              <Route path='/' element={<Profile state={props.state.profilePage} addPost={props.addPost}/>} />
-              <Route path='/dialogs/*' element={<Dialogs state={props.state.dialogsPage} addMessage={props.addMessage}/>} />
+              <Route path='/' element={<Profile state={props.state.profilePage} 
+                                                dispatch={props.dispatch}/>} />
+                                                
+              <Route path='/dialogs/*' element={<Dialogs state={props.state.dialogsPage} 
+                                                         dispatch={props.dispatch}/>} />
             </Routes>
           </div>
 

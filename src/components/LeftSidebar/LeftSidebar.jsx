@@ -1,7 +1,9 @@
+// Libraries
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 // Component styles
-import style from './LeftSidebar.module.css'
+import style from './LeftSidebar.module.scss'
 
 const LeftSidebar = () => {
     return (

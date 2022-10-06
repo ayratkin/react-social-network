@@ -1,6 +1,8 @@
+// Libraries
 import React from "react";
+
 // Component styles
-import style from "./Message.module.css";
+import style from "./Message.module.scss";
 
 const Message = (props) => {
     return (

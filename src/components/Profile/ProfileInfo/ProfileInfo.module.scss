@@ -1,0 +1,30 @@
+.profile_container {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+.profile_img {
+    width: 400px;
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_name {
+    padding: 20px;
+}
+
+.profile_name p {
+    font-weight: 600;
+}
+
+.online {
+    padding: 20px;
+}
