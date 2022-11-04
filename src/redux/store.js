@@ -1,11 +1,6 @@
 import profileReducer from "./profile-reducer";
 import dialogsReducer from "./dialogs-reducer";
 
-const change_post_text = "CHANGE-POST-TEXT";
-const add_post = "ADD-POST";
-const change_message_text = "CHANGE-MESSAGE-TEXT";
-const send_message = 'SEND-MESSAGE'
-
 let store = {
     _state: {
         profilePage: {
@@ -56,39 +51,7 @@ let store = {
         this._state.dialogsPage = dialogsReducer(this._state.dialogsPage, action);
 
         this._callSubscriber(this._state);
-
-
-
     }
 }
-
-export const changePostTextActionCreator = (text) => {
-    return {
-        type: change_post_text,
-        newText: text,
-    }
-}
-
-export const addPostActionCreator = () => {
-    return {
-        type: add_post,
-    }
-}
-
-export const changeMessageTextActionCreator = (text) => {
-    return {
-        type: change_message_text,
-        newText: text,
-    }
-}
-
-export const sendMessageActionCreator = () => {
-    console.log('log1');
-    return {
-        type: send_message,
-    }
-
-}
-
 
 export default store;

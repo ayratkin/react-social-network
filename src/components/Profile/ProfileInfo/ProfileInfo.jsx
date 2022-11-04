@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Component styles
-import style from './ProfileInfo.module.scss'
+import style from './ProfileInfo.module.css'
 
 const ProfileInfo = () => {
   return (

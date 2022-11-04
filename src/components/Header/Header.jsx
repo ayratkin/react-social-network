@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Component styles
-import style from './Header.module.scss'
+import style from './Header.module.css'
 
 const Header = () => {
     return (

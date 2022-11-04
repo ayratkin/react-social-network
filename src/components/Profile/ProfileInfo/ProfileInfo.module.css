@@ -18,13 +18,9 @@ p {
 }
 
 .profile_name {
-    padding: 20px;
-}
+    padding-left: 20px;
 
-.profile_name p {
-    font-weight: 600;
-}
-
-.online {
-    padding: 20px;
+    p {
+        font-weight: 600;
+    }
 }

@@ -2,26 +2,21 @@
 import React from "react";
 
 // Component styles
-import style from "./AddMessage.module.scss"
-
-// Action creators
-import {changeMessageTextActionCreator} from "../../../redux/state"
-import {sendMessageActionCreator} from "../../../redux/state"
-
+import style from "./AddMessage.module.css"
 
 const AddMessage = (props) => {
+    console.log(props)
     const myRef = React.createRef();
-
 
     // Печать текста с сохранением в state
     function changeMessage() {
         let text = myRef.current.value;
-        props.dispatch(changeMessageTextActionCreator(text))
+        props.changeMessageText(text);
     }
 
     // Отправка сообщения в state
     function sendMessage() {
-        props.dispatch(sendMessageActionCreator())
+        props.sendMessage();
     }
 
     return (
@@ -31,7 +26,7 @@ const AddMessage = (props) => {
                     ref={myRef} 
                     placeholder="Write a post..." 
                     value={props.messageTe}
-                    onChange={changeMessage}>
+                    onChange={ changeMessage }>
                 </textarea>
                 <button onClick={ sendMessage }>Send message</button>
             </div>

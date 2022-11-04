@@ -1,19 +1,21 @@
 import React from "react";
 
 // Component styles
-import style from "./Dialogs.module.scss";
+import style from "./Dialogs.module.css";
 
 // Other components
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
-import AddMessage from "./AddMessage/AddMessage"
+import AddMessageContainer from "./AddMessage/AddMessageContainer"
 
 const Dialogs = (props) => {
-    let dialogsItems = props.state.dialogs.map((dialog) => {
+    console.log(props)
+
+    let dialogsItems = props.dialogs.map((dialog) => {
         return (<DialogItem id={dialog.id} name={dialog.name} />)
     })
 
-    let messagesItems = props.state.messages.map((message) => {
+    let messagesItems = props.messages.map((message) => {
         return (<Message messageText={message.message} />)
     })
 
@@ -28,8 +30,8 @@ const Dialogs = (props) => {
                 </div>
                 <div className={style.messages}>
                     {messagesItems}
-                    <AddMessage dispatch={props.dispatch}
-                                messageText={props.state.messageText}/>
+                    <AddMessageContainer dispatch={props.dispatch}
+                                messageText={props.messageText}/>
                 </div>
             </div>
         </>

@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 // Component styles
-import style from "./DialogItem.module.scss"
+import style from "./DialogItem.module.css"
 
 const DialogItem = (props) => {
     let path = `/dialog/${props.id}`

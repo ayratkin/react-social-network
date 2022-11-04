@@ -1,12 +1,13 @@
 // Libraries
 import React from "react"
+import { connect } from "react-redux"
 
 // Component styles
-import style from "./AddPost.module.scss"
+import style from "./AddPost.module.css"
 
 // Action creators
-import {changePostTextActionCreator} from "../../../redux/state"
-import {addPostActionCreator} from "../../../redux/state"
+import {changePostTextActionCreator} from "../../../redux/profile-reducer"
+import {addPostActionCreator} from "../../../redux/profile-reducer"
 
 
 const AddPost = (props) => {
@@ -40,4 +41,17 @@ const AddPost = (props) => {
     )
 }
 
-export default AddPost;
+const mapDispatchToProps = (dispatch) => {
+    return {
+        sendPost: () => {
+            dispatch(addPostActionCreator());
+        },
+
+        changeTextArea: (text) => {
+            dispatch(changePostTextActionCreator(text))
+        }
+
+    }
+}
+
+export default connect(mapDispatchToProps)(AddPost);

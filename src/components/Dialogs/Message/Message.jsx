@@ -2,7 +2,7 @@
 import React from "react";
 
 // Component styles
-import style from "./Message.module.scss";
+import style from "./Message.module.css";
 
 const Message = (props) => {
     return (

@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Component styles
-import style from './LeftSidebar.module.scss'
+import style from './LeftSidebar.module.css'
 
 const LeftSidebar = () => {
     return (
