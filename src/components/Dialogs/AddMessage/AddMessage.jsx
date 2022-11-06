@@ -5,7 +5,6 @@ import React from "react";
 import style from "./AddMessage.module.css"
 
 const AddMessage = (props) => {
-    console.log(props)
     const myRef = React.createRef();
 
     // Печать текста с сохранением в state
