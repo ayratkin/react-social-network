@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T16:12:34.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SzFFZFZubTqOgIF_O79E" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-11T20:15:05.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lzrtBdMrno8UoM5lGdJk" version="20.5.3" type="github">
   <diagram id="xHOimHG9-8J5mxC2XHgx" name="Страница 1">
-    <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1378" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-2" value="Index.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="914" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="892" y="310" width="164" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sAyqPYQirj0qYZEG7BjC-7" target="sAyqPYQirj0qYZEG7BjC-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -19,10 +19,8 @@
         <mxCell id="sAyqPYQirj0qYZEG7BjC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sAyqPYQirj0qYZEG7BjC-7" target="sAyqPYQirj0qYZEG7BjC-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sAyqPYQirj0qYZEG7BjC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sAyqPYQirj0qYZEG7BjC-7" target="rBJcAgR5XujiQQtMeJxf-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1765" y="520" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="TcA2jlqTonru3dV2rFU5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAyqPYQirj0qYZEG7BjC-7" target="rBJcAgR5XujiQQtMeJxf-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-7" value="App.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="914" y="440" width="120" height="60" as="geometry" />
@@ -47,22 +45,22 @@
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rBJcAgR5XujiQQtMeJxf-5" target="sAyqPYQirj0qYZEG7BjC-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1765" y="610" as="sourcePoint" />
+            <mxPoint x="1863" y="702.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rBJcAgR5XujiQQtMeJxf-5" target="sAyqPYQirj0qYZEG7BjC-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1850" y="565.0000000000005" as="sourcePoint" />
+            <mxPoint x="1948" y="657.5000000000005" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-19" value="DialogItem.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1695" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="1808" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-20" value="Message.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1870" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="1980" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-21" value="AddPost.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="990" y="625" width="120" height="60" as="geometry" />
+          <mxGeometry x="944" y="625" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sAyqPYQirj0qYZEG7BjC-23" target="uf1OYMd4jkEng7_knEpv-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -70,10 +68,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-23" value="MyPosts.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="625" width="120" height="60" as="geometry" />
+          <mxGeometry x="1095" y="625" width="190" height="65" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-24" value="ProfileInfo.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1267" y="625" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="625" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sAyqPYQirj0qYZEG7BjC-34" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="sAyqPYQirj0qYZEG7BjC-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -147,41 +145,35 @@
         <mxCell id="vrfLw-TPzT8Bq3_9cUj2-7" value="ActionCreators" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1129" y="-100" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k0oIQ6cGJ1n6Gq89hYQ1-1" value="store" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1004" y="350" width="50" height="30" as="geometry" />
+        <mxCell id="k0oIQ6cGJ1n6Gq89hYQ1-1" value="store&lt;br&gt;(import from redux-store)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1004" y="290" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k0oIQ6cGJ1n6Gq89hYQ1-2" value="AddMessageContainer.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1484" y="635" width="170" height="90" as="geometry" />
+        <mxCell id="k0oIQ6cGJ1n6Gq89hYQ1-2" value="AddMessage.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="715" width="176" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="sAyqPYQirj0qYZEG7BjC-18" value="AddMessage.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="695" width="90" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="k0oIQ6cGJ1n6Gq89hYQ1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rBJcAgR5XujiQQtMeJxf-5" target="k0oIQ6cGJ1n6Gq89hYQ1-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1680" y="565.0000000000005" as="sourcePoint" />
-            <mxPoint x="1509.9985714285715" y="605" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="TcA2jlqTonru3dV2rFU5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rBJcAgR5XujiQQtMeJxf-5" target="k0oIQ6cGJ1n6Gq89hYQ1-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rBJcAgR5XujiQQtMeJxf-5" value="DialogsContainer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="520" width="170" height="90" as="geometry" />
+          <mxGeometry x="1770" y="497.5" width="194" height="102.5" as="geometry" />
         </mxCell>
-        <mxCell id="rBJcAgR5XujiQQtMeJxf-6" value="Dialogs.js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1736" y="580" width="90" height="25" as="geometry" />
+        <mxCell id="uf1OYMd4jkEng7_knEpv-1" value="Post.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1097.5" y="770" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rBJcAgR5XujiQQtMeJxf-7" value="store" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="625" width="50" height="30" as="geometry" />
+        <mxCell id="2RS4RM47sIOyJ_weInx5-2" value="store&lt;br&gt;(use hooks)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1698" y="697.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rBJcAgR5XujiQQtMeJxf-8" value="store" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="510" width="50" height="30" as="geometry" />
+        <mxCell id="2RS4RM47sIOyJ_weInx5-3" value="store&lt;br&gt;(use connect)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="600" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uf1OYMd4jkEng7_knEpv-1" value="PostContainer.js" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1105" y="730" width="170" height="90" as="geometry" />
+        <mxCell id="2RS4RM47sIOyJ_weInx5-4" value="store&lt;br&gt;(use connect)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1214" y="750" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uf1OYMd4jkEng7_knEpv-2" value="Post.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="790" width="90" height="25" as="geometry" />
+        <mxCell id="TcA2jlqTonru3dV2rFU5-2" value="Dialogs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="560" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uf1OYMd4jkEng7_knEpv-3" value="store" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1233" y="720" width="50" height="30" as="geometry" />
+        <mxCell id="TcA2jlqTonru3dV2rFU5-6" value="store&lt;br&gt;(use connect)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1885" y="480" width="95" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
