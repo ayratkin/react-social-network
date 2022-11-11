@@ -11,20 +11,27 @@ import {addPostActionCreator} from "../../../redux/profile-reducer"
 
 
 const AddPost = (props) => {
+
     const myRef = React.createRef();
 
-    // Отправка сообщения в state
-    // Привязан к событию onClick у компомента
+    // Создание нового поста
     function sendPost() {
         props.dispatch(addPostActionCreator());
         myRef.current.value = '';
     }
 
-    // Изменение значения postText в state при наборе текста 
-    // Привязан к событию onChange у компомента
+    // Печать текста поста
     function changeTextArea() {
         let text = myRef.current.value;
         props.dispatch(changePostTextActionCreator(text));
+    }
+
+    // Создание нового поста по нажатию на Enter
+    const pressEnter = (e) => {
+        if (e.keyCode == 13) {
+            sendPost();
+            // props.postText = '';
+        }
     }
 
     return (
@@ -33,7 +40,8 @@ const AddPost = (props) => {
                 <textarea ref={myRef}
                           placeholder="Share the news..." 
                           value={props.postText} 
-                          onChange={changeTextArea}/>
+                          onChange={changeTextArea}
+                          onKeyDown={pressEnter}/>
 
                 <button onClick={ sendPost }>Send post</button>
             </div>
