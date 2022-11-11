@@ -1,13 +1,13 @@
 // Libraries
-import React from 'react';
+import React from "react";
 
 // Component styles
-import style from './Profile.module.css'
+import style from "./Profile.module.css";
 
 // App components
-import MyPosts from './MyPosts/MyPosts'
-import ProfileInfo from './ProfileInfo/ProfileInfo'
-import AddPost from './AddPost/AddPost';
+import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import AddPost from "./AddPost/AddPost";
 
 const Profile = (props) => {
   // console.log(props.state)
@@ -19,7 +19,7 @@ const Profile = (props) => {
         <AddPost />
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Profile;
