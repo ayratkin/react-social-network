@@ -14,7 +14,7 @@ import Header from './components/Header/Header';
 import LeftSidebar from './components/LeftSidebar/LeftSidebar';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
 import Profile from './components/Profile/Profile';
-
+import Users from "./components/Users/Users";
 
 const App = (props) => {
   return (
@@ -25,10 +25,9 @@ const App = (props) => {
           <LeftSidebar />
           <div className='page'>
             <Routes>
-              <Route path='/' element={<Profile state={props.state.profilePage} 
-                                                dispatch={props.dispatch}/>} />
-                                                
+              <Route path='/' element={<Profile />} />
               <Route path='/dialogs/*' element={<DialogsContainer />} />
+              <Route path='/users/*' element={<Users />} />
             </Routes>
           </div>
 
