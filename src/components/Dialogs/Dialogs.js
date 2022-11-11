@@ -7,7 +7,7 @@ import style from "./Dialogs.module.css";
 // Other components
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
-import AddMessageContainer from "./AddMessage/AddMessageContainer";
+import AddMessage from "./AddMessage/AddMessage";
 
 const Dialogs = (props) => {
   const dialogsPage = useSelector((state) => state.dialogsPage);
@@ -27,9 +27,10 @@ const Dialogs = (props) => {
           <h3 className={style.dialogs_title}>Dialogs:</h3>
           {dialogsItems}
         </div>
+
         <div className={style.messages}>
           {messagesItems}
-          <AddMessageContainer
+          <AddMessage
             dispatch={props.dispatch}
             messageText={props.messageText}
           />
