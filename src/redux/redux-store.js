@@ -9,7 +9,7 @@ import usersReducer from "./users-reducer";
 let reducers = combineReducers({
     dialogsPage: dialogsReducer,
     profilePage: profileReducer,
-    userPage: usersReducer,
+    usersPage: usersReducer,
 })
 
 let store = createStore(reducers);
