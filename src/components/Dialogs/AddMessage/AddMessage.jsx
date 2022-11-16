@@ -9,49 +9,47 @@ import style from "./AddMessage.module.css"
 
 const AddMessage = (props) => {
 
-    // state
-    const message = useSelector(state => {
-        const message = state.dialogsPage.messageText
-        return message
-    })
+	// state
+	const message = useSelector(state => {
+		const message = state.dialogsPage.messageText
+		return message
+	})
 
-    // dispatch
-    const dispatch = useDispatch()
+	// dispatch
+	const dispatch = useDispatch()
 
-    const myRef = React.createRef();
+	const myRef = React.createRef();
 
-    // Печать текста с сохранением в state
-    function changeMessage() {
-        let text = myRef.current.value;
-        dispatch(changeMessageTextActionCreator(text));
-    }
+	// Печать текста с сохранением в state
+	function changeMessage() {
+		let text = myRef.current.value;
+		dispatch(changeMessageTextActionCreator(text));
+	}
 
-    // Отправка сообщения в state
-    function sendMessage() {
-        dispatch(sendMessageActionCreator())
-    }
+	// Отправка сообщения в state
+	function sendMessage() {
+		dispatch(sendMessageActionCreator())
+	}
 
-    // Создание нового поста по нажатию на Enter
-    const pressEnter = (e) => {
-        if (e.keyCode == 13) {
-            sendMessage();
-            // props.postText = '';
-        }
-    }
+	// Создание нового поста по нажатию на Enter
+	const pressEnter = (e) => {
+		if (e.keyCode == 13) {
+			sendMessage();
+			// props.postText = '';
+		}
+	}
 
-    return (
-        <>
-            <div className={style.new_message}>
+	return (<>
+		<div className={style.new_message}>
                 <textarea
-                    ref={myRef}
-                    placeholder="Write a post..."
-                    value={message}
-                    onChange={changeMessage}
-                    onKeyDown={pressEnter}/>
-                <button onClick={sendMessage}>Send message</button>
-            </div>
-        </>
-    )
+	                ref={myRef}
+	                placeholder="Write a post..."
+	                value={message}
+	                onChange={changeMessage}
+	                onKeyDown={pressEnter}/>
+			<button onClick={sendMessage}>Send message</button>
+		</div>
+	</>)
 }
 
 export default AddMessage;
