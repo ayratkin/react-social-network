@@ -12,9 +12,9 @@ const LeftSidebar = () => {
             <li><Link to="/">Profile</Link></li>
             <li><Link to="/dialogs">Messages</Link></li>
             <li><Link to="/users">Users</Link></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><s><a href="#">News</a></s></li>
+            <li><s><a href="#">Music</a></s></li>
+            <li><s><a href="#">Settings</a></s></li>
         </ul>
     </nav>
     )
