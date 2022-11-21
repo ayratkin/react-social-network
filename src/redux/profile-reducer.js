@@ -6,8 +6,8 @@ let initialState = {
 	posts: [
 		{id: 1, message: "Hi! It's my first post 🙌🏻", likeCount: 0},
 		{id: 2, message: "Welcome to my first social network", likeCount: 0},
-		{id: 3, message: "Wish me good luck in learning React technologies 😂", likeCount: 0},
-		{id: 4, message: "I almost forgot, subscribe: github.com/ayratkin 😁😁", likeCount: 0},
+		{id: 3, message: "Wish me good luck in learning React technologies 😂", likeCount: 1},
+		{id: 4, message: "I almost forgot, subscribe: github.com/ayratkin 😁😁", likeCount: 9},
 	],
 
 	postText: "",
