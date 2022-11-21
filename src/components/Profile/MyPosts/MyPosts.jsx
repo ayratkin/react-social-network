@@ -10,7 +10,9 @@ import Post from "./Post/Post";
 
 const MyPosts = (props) => {
   let postsItems = props.posts.map((post) => {
-    return <Post message={post.message}/>;
+    return <Post message={post.message}
+                 likesCount={post.likeCount}
+                  postId={post.id}/>;
   });
 
   return (

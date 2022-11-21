@@ -4,14 +4,13 @@ const LIKE_POST = "LIKE-POST";
 
 let initialState = {
 	posts: [
-		{ id: 1, message: "Hi! It's my first post 🙌🏻" },
-		{ id: 2, message: "Welcome to my first social network" },
-		{ id: 3, message: "Wish me good luck in learning React technologies 😂" },
-		{ id: 4, message: "I almost forgot, subscribe: github.com/ayratkin 😁😁" },
+		{id: 1, message: "Hi! It's my first post 🙌🏻", likeCount: 0},
+		{id: 2, message: "Welcome to my first social network", likeCount: 0},
+		{id: 3, message: "Wish me good luck in learning React technologies 😂", likeCount: 0},
+		{id: 4, message: "I almost forgot, subscribe: github.com/ayratkin 😁😁", likeCount: 0},
 	],
 
 	postText: "",
-	likeCount: 0,
 };
 
 const profileReducer = (state = initialState, action) => {
@@ -38,8 +37,22 @@ const profileReducer = (state = initialState, action) => {
 		case LIKE_POST:
 			return {
 				...state,
-				likeCount: state.likeCount + 1,
+				posts: state.posts.map(post => {
+					if (post.id === action.postId) {
+						return {
+							...post, likeCount: post.likeCount + 1
+						}
+					}
+					return post;
+
+				})
 			};
+
+			// return {
+			// 	...state,
+			// 	likeCount: state.likeCount + 1,
+			// };
+			//
 
 		default:
 			return state;
@@ -62,6 +75,7 @@ export const addPostActionCreator = () => {
 export const likePostActionCreator = (postId) => {
 	return {
 		type: LIKE_POST,
+		postId: postId,
 	};
 };
 

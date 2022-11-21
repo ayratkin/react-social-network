@@ -1,13 +1,10 @@
 // Libraries
 import React from "react";
 import { connect } from "react-redux";
-
 // Component styles
 import style from "./Post.module.css";
-
 // Images import
 import like from "../../../../img/like2.png";
-
 // Action creators
 import { likePostActionCreator } from "../../../../redux/profile-reducer";
 
@@ -26,9 +23,9 @@ const Post = (props) => {
       />
       <p className={style.post__text}> {props.message} </p>
 
-      <div className={style.post__likes} onClick={props.onLike}>
+      <div className={style.post__likes} onClick={ () => {props.onLike(props.postId)}}>
         <img className={style.like_img} src={like} alt="like" />
-        <p className={style.likeCount}>{props.likes}</p>
+        <p className={style.likeCount}>{props.likesCount}</p>
       </div>
     </div>
   );
@@ -42,8 +39,8 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    onLike: () => {
-      dispatch(likePostActionCreator());
+    onLike: (postId) => {
+      dispatch(likePostActionCreator(postId));
     },
   };
 }
