@@ -1,9 +1,9 @@
 // Libraries
 import React from 'react'
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route 
+	BrowserRouter as Router,
+	Routes,
+	Route
 } from 'react-router-dom';
 
 // Component styles;
@@ -17,24 +17,24 @@ import Profile from './components/Profile/Profile';
 import Users from "./components/Users/Users";
 
 const App = (props) => {
-  return (
-    <Router>
-    <div className='app_wrapper'>
-      <Header /> 
-        <div className='main_wrapper'>
-          <LeftSidebar />
-          <div className='page'>
-            <Routes>
-              <Route path='/' element={<Profile />} />
-              <Route path='/dialogs/*' element={<DialogsContainer />} />
-              <Route path='/users/*' element={<Users />} />
-            </Routes>
-          </div>
+	return (
+		<Router>
+			<div className='app_wrapper'>
+				<Header/>
+				<div className='main_wrapper'>
+					<LeftSidebar/>
+					<div className='page'>
+						<Routes>
+							<Route path='/' element={<Profile />}/>
+							<Route path='/dialogs/*' element={<DialogsContainer />}/>
+							<Route path='/users/*' element={<Users />}/>
+						</Routes>
+					</div>
 
-        </div>
-    </div>
-    </Router>
-  )
+				</div>
+			</div>
+		</Router>
+	)
 }
 
 export default App;
