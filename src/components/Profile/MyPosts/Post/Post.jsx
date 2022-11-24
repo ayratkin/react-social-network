@@ -33,7 +33,7 @@ const Post = (props) => {
 
 function mapStateToProps(state) {
   return {
-    likes: state.profilePage.likeCount,
+
   };
 }
 
