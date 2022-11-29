@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T18:02:24.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TI0MmI0gHxKIcIHMpNe9" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T18:38:49.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9rGBxLiNISYWr4Ip1Ayh" version="20.5.3" type="github">
   <diagram id="xHOimHG9-8J5mxC2XHgx" name="Страница 1">
     <mxGraphModel dx="1422" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,7 +148,7 @@
         <mxCell id="TcA2jlqTonru3dV2rFU5-6" value="store&lt;br&gt;(use connect)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1885" y="480" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ThptQu879PyFqu8j116L-1" value="Users" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ThptQu879PyFqu8j116L-1" value="Users&lt;br&gt;(Class Component)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="518.75" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ThptQu879PyFqu8j116L-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
