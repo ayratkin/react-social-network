@@ -3,8 +3,6 @@ import {connect} from "react-redux"
 // Other components
 import Dialogs from "./Dialogs"
 
-
-
 const mapStateToProps = (state) => {
     return {
         dialogs: state.dialogsPage.dialogs,

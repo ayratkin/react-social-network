@@ -9,45 +9,20 @@ import {followAC, setUsersAC} from '../../redux/users-reducer';
 import {unFollowAC} from '../../redux/users-reducer';
 import manAvatar from '../../../src/img/man-avatar.png'
 
-let mapStateToProps = (state) => {
-	return {
-		users: state.usersPage.users
-	}
-}
-
-let mapDispatchToProps = (dispatch) => {
-	return {
-		setUsers: (users) => {
-			dispatch(setUsersAC(users))
-		},
-
-		followUser: (userId) => {
-			dispatch(followAC(userId))
-		},
-
-		unFollowUser: (userId) => {
-			dispatch(unFollowAC(userId))
-		},
-	}
-}
-
 class Users extends React.Component {
 
-	// get info from api
-	getUsers = () => {
-		if (this.props.users.length === 0) {
-			axios.get('https://social-network.samuraijs.com/api/1.0/users').then(
-				respons => {
-					this.props.setUsers(respons.data.items)
-				})
-		}
+	componentDidMount() {
+		axios.get('https://social-network.samuraijs.com/api/1.0/users').then(
+			respons => {
+				this.props.setUsers(respons.data.items);
+				console.log(respons.data.items);
+			});
 	}
 
 	render() {
 		return (
 			<>
 				<h1>Users:</h1>
-				<button onClick={this.getUsers}>Get users</button>
 				{
 					this.props.users.map((user) => {
 						return (
@@ -90,6 +65,28 @@ class Users extends React.Component {
 				}
 			</>
 		)
+	}
+}
+
+const mapStateToProps = (state) => {
+	return {
+		users: state.usersPage.users
+	}
+}
+
+const mapDispatchToProps = (dispatch) => {
+	return {
+		setUsers: (users) => {
+			dispatch(setUsersAC(users))
+		},
+
+		followUser: (userId) => {
+			dispatch(followAC(userId))
+		},
+
+		unFollowUser: (userId) => {
+			dispatch(unFollowAC(userId))
+		},
 	}
 }
 

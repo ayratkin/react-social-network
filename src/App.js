@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 // Component styles;
-import './App.css';
+import './App.scss';
 
 // App components 
 import Header from './components/Header/Header';
@@ -19,8 +19,8 @@ import Users from "./components/Users/Users";
 const App = (props) => {
 	return (
 		<Router>
+			<Header/>
 			<div className='app_wrapper'>
-				<Header/>
 				<div className='main_wrapper'>
 					<LeftSidebar/>
 					<div className='page'>

@@ -8,7 +8,7 @@ import App from './App';
 import store from './redux/redux-store';
 
 
-let rerenderEntireTree = (state) => {
+let rerenderEntireTree = () => {
 	ReactDOM.render(
 		<Provider store={store}>
 			<App />
