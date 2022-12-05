@@ -1,6 +1,6 @@
 // Libraries
 import React from "react";
-import { connect } from "react-redux";
+import {connect} from "react-redux";
 
 // Component styles
 import style from "./MyPosts.module.css";
@@ -9,27 +9,29 @@ import style from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
 const MyPosts = (props) => {
-  let postsItems = props.posts.map((post) => {
-    return <Post message={post.message}
-                 likesCount={post.likeCount}
-                  postId={post.id}/>;
-  });
+	let postsItems = props.posts.map((post) => {
+		return <Post message={post.message}
+		             likesCount={post.likeCount}
+		             postId={post.id}
+		             isLiked={post.isLiked}
+		/>;
+	});
 
-  return (
-    <>
-      <div>{postsItems}</div>
-    </>
-  );
+	return (
+		<>
+			<div>{postsItems}</div>
+		</>
+	);
 };
 
 const mapStateToProps = (state) => {
-  return {
-    posts: state.profilePage.posts,
-  };
+	return {
+		posts: state.profilePage.posts,
+	};
 };
 
 const mapDispatchToProps = (dispatch) => {
-  return {};
+	return {};
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyPosts);
