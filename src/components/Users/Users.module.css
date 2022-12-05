@@ -28,3 +28,7 @@
 .user__column {
     margin-left: 20px;
 }
+
+.active {
+    font-weight: bold;
+}
