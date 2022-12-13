@@ -14,6 +14,7 @@ const MyPosts = (props) => {
 		             likesCount={post.likeCount}
 		             postId={post.id}
 		             isLiked={post.isLiked}
+		             key={post.id}
 		/>;
 	});
 

@@ -1,0 +1,43 @@
+.user {
+  display: flex;
+  padding: 15px 10px;
+
+  .userPhoto {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  .follow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .followBtn {
+    font-weight: bold;
+    margin-top: 10px;
+    min-width: 75px;
+    background-color: white;
+    border: 1px solid rgb(222, 222, 222);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      transition: 0.3s all ease;
+    }
+  }
+
+  .descriptions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .column {
+    margin-left: 20px;
+  }
+}

@@ -14,7 +14,7 @@ import Header from './components/Header/Header';
 import LeftSidebar from './components/LeftSidebar/LeftSidebar';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
 import Profile from './components/Profile/Profile';
-import Users from "./components/Users/Users";
+import UsersContainer from "./components/UsersPage/UsersPageContainer";
 
 const App = (props) => {
 	return (
@@ -27,11 +27,9 @@ const App = (props) => {
 						<Routes>
 							<Route path='/' element={<Profile />}/>
 							<Route path='/dialogs/*' element={<DialogsContainer />}/>
-							<Route path='/users/*' element={<Users />}/>
+							<Route path='/users/*' element={<UsersContainer />}/>
 						</Routes>
-					</div>
-
-				</div>
+					</div>				</div>
 			</div>
 		</Router>
 	)
