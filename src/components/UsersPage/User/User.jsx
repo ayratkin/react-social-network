@@ -3,6 +3,7 @@ import styles from "./User.module.scss";
 import manAvatar from "../../../img/man-avatar.png";
 import {useDispatch, useSelector} from "react-redux";
 import {followAC, unFollowAC} from "../../../redux/users-reducer";
+import { Link } from "react-router-dom";
 
 const User = (props) => {
 
@@ -18,16 +19,19 @@ const User = (props) => {
 			<div className={styles.user}>
 				<div className={styles.follow}>
 
+					<Link to={`/profile/${props.user.id}`}>
 					{
 						props.user.photos.small
 							? <img src={props.user.photos.small} className={styles.userPhoto} alt={'user_photo'}/>
 							: <img src={manAvatar} className={styles.userPhoto} alt={'user_photo'}/>
 					}
+					</Link>
 
+					{/* Render "Follow" or "Unfollow" button */}
 					{
 						props.user.isFollow
 							? <button
-								className={styles.followBtn}
+								className={styles.followBtn + " " + styles.blackBtn}
 								onClick={() => {
 									dispatch(unFollowAC(props.user.id))
 								}}>Unfollow</button>
