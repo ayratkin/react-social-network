@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d70c2e9-376f-4d0a-b5d6-e2b10c9e3b53" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/React-components tree.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/AddMessage/AddMessage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/AddMessage/AddMessage.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftSidebar/LeftSidebar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftSidebar/LeftSidebar.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/AddPost/AddPost.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/AddPost/AddPost.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersPage/User/User.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersPage/User/User.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersPage/UsersPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersPage/UsersPage.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsersPage/UsersPageContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/heart-fill.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/like2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/man-avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/woman-avatart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,22 +29,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Coding/my-app",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Coding/my-app&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Coding\my-app\src\img" />
@@ -142,7 +90,6 @@
       <workItem from="1670800939576" duration="3228000" />
       <workItem from="1670946587854" duration="846000" />
       <workItem from="1671119787563" duration="354000" />
-      <workItem from="1675601653048" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="changed the appearance of the sidebar, added icons and hover">
       <created>1670275536379</created>
@@ -186,14 +133,7 @@
       <option name="project" value="LOCAL" />
       <updated>1670946627919</updated>
     </task>
-    <task id="LOCAL-00007" summary=".">
-      <created>1675601989534</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1675601989534</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

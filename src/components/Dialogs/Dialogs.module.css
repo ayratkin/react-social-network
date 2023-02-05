@@ -1,0 +1,19 @@
+.dialogs_page {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.dialogs {
+    border-right: 3px dotted gray;
+    box-sizing: border-box;
+    padding-right: 25px;
+}
+
+.messages {
+    padding-left: 25px;
+}
+
+.dialogs_title {
+    margin: 0 0 10px 0;
+}

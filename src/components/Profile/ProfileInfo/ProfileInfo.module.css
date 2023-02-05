@@ -1,0 +1,26 @@
+.profile_container {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+.profile_img {
+    width: 400px;
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_name {
+    padding-left: 20px;
+
+    p {
+        font-weight: 600;
+    }
+}
