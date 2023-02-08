@@ -1,7 +1,7 @@
 Мини-соц сеть.
 
 
-![image](https://user-images.githubusercontent.com/71790705/217628624-01512040-16d3-40f3-a9a6-d125887de67a.png)
+![image](https://user-images.githubusercontent.com/71790705/217629826-23f0491e-89f1-4cf4-a1d4-8120824a3ac9.png)
 
 Стек: </br> 
 - React. Functional and class components).
