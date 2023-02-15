@@ -1,4 +1,4 @@
-Мини-соц сеть.
+Мини соц сеть.
 
 Стек: </br> 
 - React. Functional and class components).
